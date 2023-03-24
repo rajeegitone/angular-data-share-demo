@@ -1,0 +1,5 @@
+<p>parent works!</p>
+<app-child [user]="user" (newItemEvent)="addItem($event)"></app-child>
+<ul>
+  <li *ngFor="let product of products">{{ product }}</li>
+</ul>
